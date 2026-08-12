@@ -90,12 +90,11 @@ The following models were trained and evaluated:
 ## Project Results
 
 ### Loan Status Distribution
-
-![Loan Status Distribution](screenshots/loan-status-distribution.png)
+![Feature Importance](screenshots/feature-importance.png)
 
 ### Feature Importance
 
-![Feature Importance](screenshots/feature-importance.png)
+![Loan Status Distribution](screenshots/loan-status-distribution.png)
 
 ### Model Performance
 
