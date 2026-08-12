@@ -4,7 +4,7 @@
 
 This project uses Machine Learning to predict whether a loan application will be **Approved** or **Rejected** based on applicant demographics, income, credit history, and loan characteristics.
 
-The project covers data preprocessing, exploratory data analysis, feature engineering, model development, and performance comparison.
+The project covers **data preprocessing, exploratory data analysis, feature engineering, model development, and performance comparison**.
 
 ## Dataset
 
@@ -28,10 +28,9 @@ The dataset contains **3,192 loan applications** with the following information:
 
 ### 1. Data Cleaning
 
-- Checked missing values
+- Checked missing values and duplicate records
 - Handled missing categorical values using the mode
 - Handled missing numerical values using the median
-- Checked for duplicate records
 
 ### 2. Exploratory Data Analysis
 
@@ -62,7 +61,7 @@ Categorical variables were encoded, resulting in **18 features** for model devel
 
 ### 4. Model Development
 
-The dataset was split into training and testing sets using an 80/20 split.
+The dataset was split into training and testing sets using an **80/20 split**.
 
 The following models were trained and evaluated:
 
@@ -83,22 +82,23 @@ The following models were trained and evaluated:
 ## Key Insights
 
 - Analyzed **3,192 loan applications** to evaluate demographics, income, credit history, and loan characteristics.
-- Performed data preprocessing, EDA, and feature engineering to prepare **18 features** for model development.
-- Compared Logistic Regression, Random Forest, and Gradient Boosting models.
+- Performed **data preprocessing, EDA, and feature engineering**, preparing **18 features** for model development.
+- Compared **Logistic Regression, Random Forest, and Gradient Boosting** models.
 - **Credit History** was identified as the most influential factor affecting overall loan approval predictions.
 
 ## Project Results
 
 ### Loan Status Distribution
-![Feature Importance](screenshots/feature-importance.png)
+
+![Loan Status Distribution](./loan-status-distribution.png)
 
 ### Feature Importance
 
-![Loan Status Distribution](screenshots/loan-status-distribution.png)
+![Feature Importance](./feature-importance.png)
 
 ### Model Performance
 
-![Model Performance](screenshots/model-performance.png)
+![Model Performance](./model-performance.png)
 
 ## Technologies Used
 
@@ -113,14 +113,11 @@ The following models were trained and evaluated:
 ## Repository Structure
 
 ```text
-loan-status-prediction/
+Loan-Status-Prediction/
 │
 ├── Loan_Status_Prediction.ipynb
-├── train.csv
-├── requirements.txt
 ├── README.md
-│
-└── screenshots/
-    ├── loan-status-distribution.png
-    ├── feature-importance.png
-    └── model-performance.png
+├── feature-importance.png
+├── loan-status-distribution.png
+├── model-performance.png
+└── train.csv
